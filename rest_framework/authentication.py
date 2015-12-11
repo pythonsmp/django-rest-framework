@@ -6,7 +6,7 @@ from __future__ import unicode_literals
 import base64
 
 from django.contrib.auth import authenticate
-from app.backend.authentication.models import CustomUser as User
+from app.backend.authentication.models import User
 from django.middleware.csrf import CsrfViewMiddleware
 from django.utils.translation import ugettext_lazy as _
 
